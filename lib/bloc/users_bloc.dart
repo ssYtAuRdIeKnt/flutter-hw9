@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:hw3_app/models/user_profile.dart';
 import 'package:hw3_app/services/user_api_service.dart';
 
+// Task part: required 3 states for UI.
 enum UsersStatus { loading, loaded, error }
 
 class UsersState {

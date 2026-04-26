@@ -14,6 +14,7 @@ class _UsersScreenState extends State<UsersScreen> {
   @override
   void initState() {
     super.initState();
+    // Task part: trigger first load from BLoC.
     _bloc.loadUsers();
   }
 
