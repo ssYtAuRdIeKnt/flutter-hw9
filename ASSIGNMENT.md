@@ -1,13 +1,14 @@
-# Project 8 Refactor to BLoC
+# Project 10. Flutter Architecture and Scalable App Design
 
 ## Repository Link
 [GitHub Repository](https://github.com/USERNAME/REPOSITORY_NAME)
 
 ## Screenshots
-- Loading state: `docs/screenshots/loading.png`
-- Error state: `docs/screenshots/error.png`
-- Loaded state: `docs/screenshots/loaded.png`
+- Users list page: `docs/screenshots/users_page.png`
+- Company stats page: `docs/screenshots/company_stats_page.png`
+- Loading/Error example: `docs/screenshots/loading_or_error.png`
 
 ## Notes
-- The app was refactored to BLoC with separated `screen`, `bloc`, `service`, and `model`.
-- API data is still loaded from a real Open API endpoint.
+- Added layered architecture (`presentation/domain/data`) in `features/users`.
+- Added new feature: company statistics screen with separate business logic use case.
+- The app still uses real data from Open API (`dummyjson.com/users`).
