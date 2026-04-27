@@ -1,7 +1,7 @@
 # Project 10. Flutter Architecture and Scalable App Design
 
 ## Repository Link
-[GitHub Repository](https://github.com/USERNAME/REPOSITORY_NAME)
+[GitHub Repository](https://github.com/ssYtAuRdIeKnt/flutter-hw9)
 
 ## Screenshots
 - Users list page: `docs/screenshots/users_page.png`
