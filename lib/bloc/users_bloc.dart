@@ -38,7 +38,7 @@ class UsersBloc {
   Stream<UsersState> get stream => _stateController.stream;
   UsersState get state => _state;
 
-  // Task part: all async/business logic is in BLoC, not in UI.
+  // All async/business logic is in BLoC, not in UI.
   Future<void> loadUsers() async {
     _emit(const UsersState.loading());
     try {

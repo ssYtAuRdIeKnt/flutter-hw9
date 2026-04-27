@@ -14,7 +14,7 @@ class _UsersScreenState extends State<UsersScreen> {
   @override
   void initState() {
     super.initState();
-    // Task part: trigger first load from BLoC.
+    // Trigger first load from BLoC.
     _bloc.loadUsers();
   }
 
@@ -34,7 +34,7 @@ class _UsersScreenState extends State<UsersScreen> {
         builder: (context, snapshot) {
           final state = snapshot.data ?? _bloc.state;
 
-          // Task part: keep the same 3 UI states (loading, error, loaded).
+          // Keep the same 3 UI states (loading, error, loaded).
           if (state.status == UsersStatus.loading) {
             return const Center(child: CircularProgressIndicator());
           }
